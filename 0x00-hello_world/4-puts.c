@@ -6,14 +6,6 @@
  */
 int main(void)
 {
-        char alpha;
-        for (alpha = 'a'; alpha <= 'z'; alpha++)
-        {
-                if (alpha != 'q' && alpha != 'e')
-                {
-                        putchar(alpha);
-                }
-        }
-        putchar('\n');
-        return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
